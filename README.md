@@ -12,7 +12,7 @@ Default settings:
 | ---------- | ------------------------ |
 | basePath   | __dirname                |
 | publicPath | 'public'                 |
-| port       | process.env.PORT || 3000 |
+| port       | process.env.PORT or 3000 |
 | name       | 'static server'          |
 
 ---
