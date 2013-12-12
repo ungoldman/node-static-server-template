@@ -1,0 +1,29 @@
+{
+  "name": "node-static-server-template",
+  "version": "0.0.1",
+  "description": "Template for deploying static sites with union, director, and ecstatic",
+  "main": "index.js",
+  "dependencies": {
+    "director": "~1.2.1",
+    "ecstatic": "~0.4.13",
+    "union": "~0.3.8"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ngoldman/node-static-server-template.git"
+  },
+  "bugs": {
+    "url" : "http://github.com/ngoldman/node-static-server-template/issues",
+    "email" : "project@hostname.com"
+  },
+  "author": "Nate Goldman <nate@ngoldman.me>",
+  "license": "BSD-2-Clause",
+  "engines": {
+    "node": "0.10.x",
+    "npm":  "1.3.x"
+  }
+}
