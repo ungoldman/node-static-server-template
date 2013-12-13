@@ -17,8 +17,7 @@
     "url": "git@github.com:ngoldman/node-static-server-template.git"
   },
   "bugs": {
-    "url" : "http://github.com/ngoldman/node-static-server-template/issues",
-    "email" : "project@hostname.com"
+    "url" : "http://github.com/ngoldman/node-static-server-template/issues"
   },
   "author": "Nate Goldman <nate@ngoldman.me>",
   "license": "BSD-2-Clause",

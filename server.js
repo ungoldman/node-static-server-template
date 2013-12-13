@@ -19,7 +19,7 @@ exports.start = function(options) {
         showDir    : false,
         autoIndex  : true,
         defaultExt : 'html',
-        gzip       : false
+        gzip       : true
       }),
       function (req, res) {
         var found = router.dispatch(req, res);
