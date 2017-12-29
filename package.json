@@ -1,28 +1,35 @@
 {
   "name": "node-static-server-template",
-  "version": "0.0.1",
   "description": "Template for deploying static sites with union, director, and ecstatic",
-  "main": "index.js",
+  "version": "0.0.1",
+  "author": "Nate Goldman <nate@ngoldman.me>",
+  "bugs": {
+    "url": "http://github.com/ngoldman/node-static-server-template/issues"
+  },
   "dependencies": {
-    "director": "~1.2.1",
-    "ecstatic": "~0.4.13",
-    "union": "~0.3.8"
+    "director": "^1.2.8",
+    "ecstatic": "^3.1.1",
+    "union": "^0.4.6"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+  "engines": {
+    "node": "8",
+    "npm": "5"
   },
+  "homepage": "https://github.com/ngoldman/node-static-server-template#readme",
+  "keywords": [
+    "boilerplate",
+    "server",
+    "static",
+    "template"
+  ],
+  "license": "BSD-2-Clause",
+  "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git@github.com:ngoldman/node-static-server-template.git"
+    "url": "git+ssh://git@github.com/ngoldman/node-static-server-template.git"
   },
-  "bugs": {
-    "url" : "http://github.com/ngoldman/node-static-server-template/issues"
-  },
-  "author": "Nate Goldman <nate@ngoldman.me>",
-  "license": "BSD-2-Clause",
-  "engines": {
-    "node": "0.10.x",
-    "npm":  "1.3.x"
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
